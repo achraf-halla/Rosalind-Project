@@ -6,7 +6,7 @@
 This branch contains my solutions to the **Bioinformatics Stronghold** problems from Rosalind (https://rosalind.info/problems/list-view/). These challenges tackle computational biology and bioinformatics, providing an excellent opportunity to apply algorithms to real-world biological data.
 
 ## Structure
-This File contains the Nucleotide, DNA Complement and DNA Codons
+This File contains the Nucleotides, DNA Complement and DNA Codons
 
 ## Problems Solved (Updated):
 1. Problem 1: **Counting DNA Nucleotides**
