@@ -18,6 +18,12 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 8. Problem 8: **Translating RNA into Protein**
 9. Problem 9: **Finding a Motif in DNA**
 10. Problem 10: **Consensus and Profile**
+11. Problem 11: **Mortal Fibonacci Rabbits**
+12. Problem 12: **Overlap Graphs**
+13. Problem 13: **Calculating Expected Offspring**
+14. Problem 14: **Finding a Shared Motif**
+15. Problem 15: **Independent Alleles**
+16. Problem 15: **Inferring mRNA from Protein**
    
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
