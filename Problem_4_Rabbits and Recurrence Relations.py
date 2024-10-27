@@ -6,6 +6,7 @@ Created on Mon Oct 21 17:44:02 2024
 """
 
 def rabbit_pairs(n, k):
+    """Calculates the number of rabbit pairs after n months, given reproduction rate k."""
     if n == 1 or n == 2:
         return 1
     
