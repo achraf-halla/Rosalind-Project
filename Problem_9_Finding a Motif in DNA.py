@@ -6,6 +6,21 @@ Created on Mon Oct 21 18:23:32 2024
 """
 
 def find_substring_brute(s, t):
+    """
+    Finds all positions of a substring `t` within a string `s` using a brute-force search.
+
+    Parameters:
+    -----------
+    s : str
+        The string in which to search for the substring `t`.
+    t : str
+        The substring to find within `s`.
+    
+    Returns:
+    --------
+    list of str
+        A list of positions (1-based) where `t` is found within `s`.
+    """
     positions = []
     for i in range(len(s) - len(t) + 1):  
         if s[i:i + len(t)] == t: 
