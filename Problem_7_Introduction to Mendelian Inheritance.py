@@ -6,8 +6,26 @@ Created on Mon Oct 21 18:00:03 2024
 """
 
 def dominant_allele_probability(k, m, n):
+    """
+    Calculates the probability of an offspring having a dominant allele in a randomly selected pair
+    from a population consisting of organisms with three genotypes: homozygous dominant (AA),
+    heterozygous (Aa), and homozygous recessive (aa).
+
+    Parameters:
+    -----------
+    k : int
+        The number of homozygous dominant (AA) individuals in the population.
+    m : int
+        The number of heterozygous (Aa) individuals in the population.
+    n : int
+        The number of homozygous recessive (aa) individuals in the population.
+
+    Returns:
+    --------
+    float
+        The probability that a randomly chosen pair from the population will produce an offspring 
+        with at least one dominant allele (AA or Aa genotype)."""
     total = k + m + n
-    
    
     P_AA_AA = (k / total) * ((k - 1) / (total - 1))
     P_AA_Aa = (k / total) * (m / (total - 1)) * 2
