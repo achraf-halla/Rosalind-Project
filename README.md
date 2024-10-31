@@ -24,6 +24,11 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 14. Problem 14: **Finding a Shared Motif**
 15. Problem 15: **Independent Alleles**
 16. Problem 16: **Inferring mRNA from Protein**
-17. Problem 18: **Open Reading Frames**
+18. Problem 18: **Open Reading Frames**
+19. Problem 19: **Enumerating Gene Orders**
+20. Problem 20: **Calculating Protein Mass**
+21. Problem 21: **Locating Restriction Sites**
+22. Problem 22: **Problem 22 RNA Splicing**
+23. Problem 23: **Enumerating kmers Lexicographically**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
