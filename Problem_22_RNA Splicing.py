@@ -12,6 +12,18 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 
 def remove_introns_and_translate(filename):
+        """
+    Remove introns from a DNA sequence and translate the remaining exons into a protein sequence.
+
+    Args:
+        filename (str): The path to a FASTA file containing DNA sequences. 
+                        The first sequence is assumed to be the main DNA sequence,
+                        and subsequent sequences are considered introns.
+
+    Returns:
+        str: The translated protein sequence derived from the DNA sequence with introns removed.
+
+    """
     sequences = list(SeqIO.parse(filename, "fasta"))
 
     main_dna = str(sequences[0].seq)    
