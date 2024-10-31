@@ -10,6 +10,16 @@ from Helper_Functions import *
 from Bio.Seq import Seq
 
 def find_orfs(dna_seq):
+        """
+    Identify and return all open reading frames (ORFs) in a given DNA sequence.
+
+    Args:
+        dna_seq (Bio.Seq.Seq): A DNA sequence object (from the BioPython library) for which to find ORFs.
+
+    Returns:
+        set: A set of unique protein sequences (as strings) translated from all ORFs found in the DNA sequence.
+
+       """
     proteins = set() 
     reverse_complement = dna_seq.reverse_complement()
     for strand in [dna_seq, dna_seq[1:], dna_seq[2:], reverse_complement, reverse_complement[1:],reverse_complement[2:]]:
