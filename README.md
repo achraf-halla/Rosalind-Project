@@ -28,7 +28,9 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 19. Problem 19: **Enumerating Gene Orders**
 20. Problem 20: **Calculating Protein Mass**
 21. Problem 21: **Locating Restriction Sites**
-22. Problem 22: **Problem 22 RNA Splicing**
+22. Problem 22: **RNA Splicing**
 23. Problem 23: **Enumerating kmers Lexicographically**
+24. Problem 24: **Longest Increasing Subsequence**
+25. Problem 25: **Genome Assembly as Shortest Superstring**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
