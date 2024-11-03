@@ -19,7 +19,7 @@ def find_overlap(s1, s2, min_overlap):
 
 def shortest_superstring(strings):
 """
-        Finds the shortest superstring containing all strings in the given list 
+    Finds the shortest superstring containing all strings in the given list 
     by iteratively merging the most overlapping pairs. The result is saved 
     to 'longstring.txt'.
     
