@@ -33,5 +33,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 24. Problem 24: **Longest Increasing Subsequence**
 25. Problem 25: **Genome Assembly as Shortest Superstring**
 26. Problem 26: **Perfect Matchings and RNA Secondary Structures**
+27. Problem 27: **Partial Permutations**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
