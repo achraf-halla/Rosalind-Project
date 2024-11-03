@@ -18,6 +18,17 @@ def find_overlap(s1, s2, min_overlap):
         start += 1
 
 def shortest_superstring(strings):
+"""
+        Finds the shortest superstring containing all strings in the given list 
+    by iteratively merging the most overlapping pairs. The result is saved 
+    to 'longstring.txt'.
+    
+    Args:
+        strings (list of str): List of strings to merge into a superstring.
+    
+    Returns:
+        None
+"""
     min_overlap = len(strings[0]) // 2  
 
     while len(strings) > 1:
