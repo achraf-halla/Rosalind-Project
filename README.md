@@ -35,5 +35,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 26. Problem 26: **Perfect Matchings and RNA Secondary Structures**
 27. Problem 27: **Partial Permutations**
 28. Problem 28: **Introduction to Random Strings**
+29. Problem 29: **Enumerating Oriented Gene Ordering**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
