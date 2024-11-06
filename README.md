@@ -38,5 +38,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 29. Problem 29: **Enumerating Oriented Gene Ordering**
 30. Problem 30: **Finding a Spliced Motif**
 31. Problem 31: **Transitions and Transversions**
+32. Problem 32: **Completing a Tree**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
