@@ -40,5 +40,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 31. Problem 31: **Transitions and Transversions**
 32. Problem 32: **Completing a Tree**
 33. Problem 33: **Catalan Numbers and RNA Secondary Structure**
+34. Problem 34: **Error Correction in Reads**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
