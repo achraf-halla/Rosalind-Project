@@ -43,5 +43,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 34. Problem 34: **Error Correction in Reads**
 35. Problem 35: **Counting Phylogenetic Ancestors**
 36. Problem 36: **k-Mer Composition**
+37. Problem 37: **Speeding Up Motif Finding**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
