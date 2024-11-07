@@ -42,6 +42,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 33. Problem 33: **Catalan Numbers and RNA Secondary Structure**
 34. Problem 34: **Error Correction in Reads**
 35. Problem 35: **Counting Phylogenetic Ancestors**
-36. 
+36. Problem 36: **k-Mer Composition**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
