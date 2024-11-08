@@ -10,6 +10,11 @@ from Helper_Functions import *
 s, t = read_fasta("rosalind_tran.txt")
 
 def transition_transversion_ratio(s, t):
+    """
+    Given: Two DNA strings s1 and s2 of equal length (at most 1 kbp).
+
+    Return: The transition/transversion ratio R(s1,s2).
+    """
     
     transitions = {('A', 'G'), ('G', 'A'), ('C', 'T'), ('T', 'C')}
     transversions = {('A', 'C'), ('A', 'T'), ('G', 'C'), ('G', 'T'),
