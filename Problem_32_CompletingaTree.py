@@ -18,6 +18,10 @@ n, liste = read_file("rosalind_tree.txt")
 
 
 def complete_a_tree(n,edges):
+    """
+    Given: A positive integer n (n≤1000) and an adjacency list corresponding to a graph on n nodes that contains no cycles
+    Return: The minimum number of edges that can be added to the graph to produce a tree.
+    """
     G = nx.Graph()
     G.add_nodes_from(range(1,n+1))
     G.add_edges_from(liste)
