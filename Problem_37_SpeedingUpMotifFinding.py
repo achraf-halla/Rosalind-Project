@@ -10,6 +10,10 @@ from Helper_Functions import read_fasta
 s = read_fasta("rosalind_kmp.txt")[0]
 
 def shorten_motif_search(s):
+	"""
+	Given: A DNA string s (of length at most 100 kbp) in FASTA format.
+	Return: The failure array of s.
+	 """
 	A = [0] * len(s)
 	
 	index = 1
