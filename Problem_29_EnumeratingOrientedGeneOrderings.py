@@ -9,6 +9,10 @@ Created on Tue Nov  5 18:46:26 2024
 from itertools import permutations, product
 
 def signed_permutations(n):
+    """
+    Given: A positive integer n≤6.
+    Return: The total number of signed permutations of length n, followed by a list of all such permutations.
+    """
     perms = permutations(range(1, n + 1))
     signed_perms = []
     for perm in perms:
