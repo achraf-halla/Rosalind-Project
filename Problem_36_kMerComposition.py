@@ -15,6 +15,10 @@ def read_fasta(filename):
 import re
 from itertools import product
 def k_mer_composition(s,k):
+    """
+    Given: A DNA string s in FASTA format (having length at most 100 kbp).
+    Return: The 4-mer composition of s.
+    """
     k_mers_count = {x:int(0) for x in sorted(["".join(x) for x in product("ACGT", repeat = 4)])}
 
     for i in range(len(s)-k+1):
