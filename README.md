@@ -44,5 +44,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 35. Problem 35: **Counting Phylogenetic Ancestors**
 36. Problem 36: **k-Mer Composition**
 37. Problem 37: **Speeding Up Motif Finding**
+38. Problem 38: **Finding a Shared Spliced Motif**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
