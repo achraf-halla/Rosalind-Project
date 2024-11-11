@@ -46,5 +46,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 37. Problem 37: **Speeding Up Motif Finding**
 38. Problem 38: **Finding a Shared Spliced Motif**
 39. Problem 39: **Ordering Strings of Varying Length Lexicographically**
+40. Problem 40: **Creating a Distance Matrix**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
