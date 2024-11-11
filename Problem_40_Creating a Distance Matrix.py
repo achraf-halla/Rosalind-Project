@@ -10,6 +10,11 @@ from Helper_Functions import *
 sequences = read_fasta("rosalind_pdst.txt")
 
 def Create_Dist_Matrix(sequences):
+    """
+    Given: A collection of n DNA strings of equal length (at most 1 kbp).
+
+    Return: The matrix D corresponding to the p-distance dpon the given strings.
+    """
     def hamming_distance(chaine1, chaine2):
         return "{:.4f}".format(float(sum(c1 != c2 for c1, c2 in zip(chaine1, chaine2))/len(chaine1)))
     matrix = []
