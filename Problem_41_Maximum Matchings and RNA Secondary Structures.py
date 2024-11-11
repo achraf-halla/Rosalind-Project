@@ -12,6 +12,11 @@ string =  read_fasta("ina.txt")[0]
 
 
 def max_matching(string):
+     """
+     Given: An RNA string s of length at most 100.
+
+     Return: The total possible number of maximum matchings of basepair edges in the bonding graph of s.
+     """
      A, U = string.count("A"),  string.count("U")
      C, G =  string.count("C"),  string.count("G")
 
