@@ -14,6 +14,10 @@ def read_fasta(filename):
     return sequences
 
 def edit_distance(seq1, seq2):
+    """
+    Given: Two protein strings s and t in FASTA format (each of length at most 1000 aa).
+    Return: The edit distance dE(s,t).
+    """
     m = len(seq1) + 1
     n = len(seq2) + 1
 
