@@ -52,5 +52,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 43. Problem 43: **Edit Distance**
 44. Problem 44: **Sorting by Reversals**
 45. Problem 45: **Counting Subsets**
+46. Problem 46: **Introduction to Alternative Splicing**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
