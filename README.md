@@ -48,5 +48,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 39. Problem 39: **Ordering Strings of Varying Length Lexicographically**
 40. Problem 40: **Creating a Distance Matrix**
 41. Problem 41: **Maximum Matchings and RNA Secondary Structures**
+42. Problem 42: **Reversal Distance**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
