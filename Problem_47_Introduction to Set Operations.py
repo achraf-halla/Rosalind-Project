@@ -16,6 +16,10 @@ with open("ina.txt", "r") as file:
     B = set(map(int, lines[2].strip('{}\n').split(', ')))
 
 def return_sets(n, A, B):
+    """
+    Given: A positive integer n (n≤20,000) and two subsets A and B of {1,2,…,n}.
+    Return: Six sets: Union of A and B, Intersection of and B, A difference B, B difference A, set complement of A, and set complement of B (where set complements are taken w.r.t {1,2,…,n}).
+    """
     with open("result2.txt", "w") as f:
         
         f.write(str(A.union(B)) + "\n")        
