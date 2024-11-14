@@ -8,6 +8,10 @@ Created on Thu Nov 14 21:42:26 2024
 from math import factorial
 
 def sum_combinations(n, m):
+    """
+Given: Positive integers n and m with 0≤ m≤ n≤2000.
+Return: The sum of combinations C(n,k) for all k satisfying m≤k≤n, modulo 1,000,000.
+    """
     result = 0
     MOD = 10**6 
     while m <= n:
