@@ -55,5 +55,6 @@ This File contains the Nucleotides, DNA Complement and DNA Codons
 46. Problem 46: **Introduction to Alternative Splicing**
 47. Problem 47: **Introduction to Set Operations**
 48. Problem 48: **Inferring Protein from Spectrum**
+49. Problem 49: **Introduction to Pattern Matching**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python. 
