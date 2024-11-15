@@ -3,9 +3,10 @@
 
 
 This branch contains my solutions to the **Bioinformatics Stronghold** problems from Rosalind (https://rosalind.info/problems/list-view/). These challenges tackle computational biology and bioinformatics, providing an excellent opportunity to apply algorithms to real-world biological data.
-
+## Helper Function
+This File contains the functions dna_to_rna, reverse_complement, translate_dna, translate_rna and read_fasta.
 ## Structure
-This File contains the Nucleotides, DNA Complement, DNA Codons, RNA Codons and MonoisoMass_Table
+This File contains the Nucleotides, DNA Complement, DNA Codons, RNA Codons and MonoisoMass Table.
 
 ## Problems Solved (Updated):
 1. Problem 1: **Counting DNA Nucleotides**
