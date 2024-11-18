@@ -57,5 +57,6 @@ This File contains the Nucleotides, DNA Complement, DNA Codons, RNA Codons and M
 47. Problem 47: **Introduction to Set Operations**
 48. Problem 48: **Inferring Protein from Spectrum**
 49. Problem 49: **Introduction to Pattern Matching**
+50. Problem 50: **Finding a Protein Motif**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python.  For some tasks the result is printed simply on the console, for others that requires a larger space, the result is written on a text file.
