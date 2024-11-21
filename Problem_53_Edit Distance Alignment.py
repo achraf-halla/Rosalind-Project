@@ -14,6 +14,11 @@ def read_fasta(filename):
     return sequences
 
 def edit_distance_with_alignment(s, t):
+    """
+    Given: Two protein strings s and t in FASTA format (with each string having length at most 1000 aa).
+
+    Return: The edit distance dE(s,t) followed by two augmented strings s′ and t′ representing an optimal alignment of s and t.
+    """
     m, n = len(s), len(t)
 
     dp = [[0] * (n + 1) for _ in range(m + 1)]
