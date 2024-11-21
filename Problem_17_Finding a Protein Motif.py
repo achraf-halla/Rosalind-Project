@@ -9,6 +9,9 @@ import re
 import requests
 
 def fetch_protein_sequence(uniprot_id):
+    """
+    Fetches the protein sequence for a given UniProt ID from the UniProt database.
+    """
     accession_id = uniprot_id.split('_')[0]
     url = f"http://www.uniprot.org/uniprot/{accession_id}.fasta"
     response = requests.get(url)
@@ -19,6 +22,10 @@ def fetch_protein_sequence(uniprot_id):
     return None
 
 def find_motif_locations(sequence, motif_regex):
+    """
+    Finds the starting positions of motifs in the given protein sequence matching the specified regex pattern.
+    """
+
     locations = []
     for i in range(len(sequence) - 3):  
         if re.match(motif_regex, sequence[i:i+4]):
@@ -26,6 +33,10 @@ def find_motif_locations(sequence, motif_regex):
     return locations
 
 def main(uniprot_ids):
+    """
+    Processes a list of UniProt IDs, retrieves their protein sequences, finds motif locations, and prints results.
+    """
+
     motif_regex = r'N[^P][ST][^P]'  
     results = []
 
