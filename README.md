@@ -25,6 +25,7 @@ This File contains the Nucleotides, DNA Complement, DNA Codons, RNA Codons and M
 14. Problem 14: **Finding a Shared Motif**
 15. Problem 15: **Independent Alleles**
 16. Problem 16: **Inferring mRNA from Protein**
+17. Problem 17: **Finding a Protein Motif**
 18. Problem 18: **Open Reading Frames**
 19. Problem 19: **Enumerating Gene Orders**
 20. Problem 20: **Calculating Protein Mass**
@@ -57,10 +58,10 @@ This File contains the Nucleotides, DNA Complement, DNA Codons, RNA Codons and M
 47. Problem 47: **Introduction to Set Operations**
 48. Problem 48: **Inferring Protein from Spectrum**
 49. Problem 49: **Introduction to Pattern Matching**
-50. Problem 50: **Finding a Protein Motif**
+50. Problem 50: **Global Alignment with Scoring Matrix**
 51. Problem 51: **Finding the Longest Multiple Repeat**
 52. Problem 52: **Matching Random Motifs**
 53. Problem 53: **Edit Distance Alignment**
-54. Problem 54: **Counting Optimal Alignments**
+54. Problem 54: **Counting Optimal Alignments** 
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python.  For some tasks the result is printed simply on the console, for others that requires a larger space, the result is written on a text file.
