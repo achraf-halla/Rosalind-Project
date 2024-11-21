@@ -8,6 +8,11 @@ n = 956304
 s = "GCTATCTAAT"
 A = [float(x) for x in "0.000 0.110 0.134 0.226 0.290 0.328 0.394 0.415 0.492 0.541 0.593 0.693 0.720 0.815 0.877 0.904 1.000".split(" ")]
 def expected_occurrences(n, s, A):
+    """
+    Given: A positive integer n (n≤1,000,000), a DNA string s of even length at most 10, and an array A of length at most 20, containing numbers between 0 and 1.
+    Return: An array B having the same length as A in which B[i] represents the expected number of times that s will appear as a substring of a random DNA string t of length n, 
+            where t is formed with GC-content A[i] (see “Introduction to Random Strings”).
+    """
     m = len(s)  
     B = []
     
