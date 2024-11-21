@@ -17,6 +17,11 @@ def read_fasta(filename):
     return sequences
 
 def count_optimal_alignments(s, t):
+    """
+    Given: Two protein strings s and t in FASTA format, each of length at most 1000 aa.
+
+    Return: The total number of optimal alignments of s and t with respect to edit alignment score, modulo 134,217,727
+    """
     m, n = len(s), len(t)
 
     dp = [[0] * (n + 1) for _ in range(m + 1)]
