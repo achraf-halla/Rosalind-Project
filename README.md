@@ -59,5 +59,6 @@ This File contains the Nucleotides, DNA Complement, DNA Codons, RNA Codons and M
 49. Problem 49: **Introduction to Pattern Matching**
 50. Problem 50: **Finding a Protein Motif**
 51. Problem 51: **Finding the Longest Multiple Repeat**
+52. Problem 52: **Matching Random Motifs**
 ## How to Run
 Each solution is contained in its own File. To execute a solution, navigate to the corresponding File and run the script with Python.  For some tasks the result is printed simply on the console, for others that requires a larger space, the result is written on a text file.
